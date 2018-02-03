@@ -58,7 +58,19 @@ body {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  border-bottom: 5px solid #39a0b5;
+}
+.quote {
+  border-top: 5px solid #39a0b5;
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #b54e39;
+}
+.author {
+  color: #9c9c9c;
+  text-align: right;
 }
 .no-border {
   border: none;
