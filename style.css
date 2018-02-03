@@ -50,7 +50,7 @@ body {
   width: 70%;
   margin: 2rem auto;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   flex-direction: row;
 }
 .item-title {
@@ -98,6 +98,64 @@ body {
 }
 .img-c {
   transform: rotate(20deg);
+}
+.per-images {
+  display: flex;
+}
+.img-notes {
+  width: 380px;
+  height: 280px;
+  margin-top: 5rem;
+}
+.img-persona {
+  width: 280px;
+  height: 400px;
+  display: block;
+  margin: 1rem auto;
+}
+.pro-img {
+  width: 150px;
+  height: 250px;
+  margin: 1rem;
+}
+.img-test {
+  width: 300px;
+  display: block;
+  margin: 1rem auto;
+}
+.app-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.app-img {
+  width: 230px;
+  height: 460px;
+  margin: 1rem;
+}
+
+/* SKILLS */
+.skills {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.skill {
+  font-size: 2.5rem;
+  margin: 1.5rem;
+  text-align: center;
+  transition: all 0.5s linear;
+  color: #335252;
+}
+.skill:hover {
+  opacity: 0.9;
+  color: #aa4b41;
+  transform: scale(1.05);
+}
+.skill-name {
+  font-size: 1rem;
+  text-align: center;
 }
 
 /* FOOTER */
