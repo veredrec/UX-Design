@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   font-family: 'Didact Gothic', sans-serif;
   text-align: center;
+  color: #565656;
 }
 /* HEADER */
 .header {
@@ -42,17 +43,25 @@ body {
   font-size: 1.5rem;
   letter-spacing: 0.3rem;
   font-family: 'Short Stack', cursive;
+  margin: 2rem;
 }
 .intro_description {
   font-size: 1.2rem;
   color: #554e49;
+  margin: 0;
+  padding-bottom: 2rem;
 }
 .p-item {
   width: 70%;
-  margin: 2rem auto;
+  margin: 1rem auto;
+  padding: 2rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
+  border-bottom: 5px solid #39a0b5;
+}
+.no-border {
+  border: none;
 }
 .item-title {
   display: flex;
