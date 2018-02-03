@@ -16,7 +16,7 @@ body {
   color: #e2d1c3;
   margin: 0;
   padding: 1rem 1rem;
-  font-family: 'Kalam', cursive;
+  font-family: 'Short Stack', cursive;
   font-size: 1.3rem;
   letter-spacing: 0.3rem;
 }
@@ -41,6 +41,7 @@ body {
   padding: 1rem;
   font-size: 1.5rem;
   letter-spacing: 0.3rem;
+  font-family: 'Short Stack', cursive;
 }
 .intro_description {
   font-size: 1.2rem;
@@ -59,6 +60,7 @@ body {
 }
 .p-title {
   font-size: 2.5rem;
+  font-family: 'Short Stack', cursive;
 }
 .p-img {
   width: 120px;
