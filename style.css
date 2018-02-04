@@ -29,6 +29,8 @@ body {
 }
 
 /* MAIN CONTENT */
+
+/* intro */
 .intro-title {
   padding: 1rem;
   font-size: 1.8rem;
@@ -42,6 +44,7 @@ body {
   margin: 0;
   padding-bottom: 2rem;
 }
+/* general - for all sections*/
 .p-item {
   width: 70%;
   margin: 1rem auto;
@@ -63,9 +66,6 @@ body {
   color: #9c9c9c;
   text-align: right;
 }
-.no-border {
-  border: none;
-}
 .item-title {
   display: flex;
   flex-direction: column;
@@ -86,11 +86,21 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.caption {
+  font-size: 1rem;
+  text-align: center;
+}
+/* idea */
+.no-border {
+  border: none;
+}
+/* problem */
 .img-prob {
   width: 400px;
   display: block;
   margin: 0.5rem auto;
 }
+/* research */
 .alt {
   display: block;
   font-weight: 600;
@@ -113,12 +123,9 @@ body {
 .img-c {
   transform: rotate(20deg);
 }
+/* user persona */
 .per-images {
   display: flex;
-}
-.caption {
-  font-size: 1rem;
-  text-align: center;
 }
 .img-notes {
   width: 380px;
@@ -131,12 +138,19 @@ body {
   display: block;
   margin: 1rem auto;
 }
-.pro-img {
+/* wireframe */
+.img-wireframe {
+  width: 600px;
+  border: 1px solid #292d42;
+}
+/* prototype */
+.prot-img {
   width: 150px;
   height: 250px;
   margin: 1rem;
   border-radius: 1rem;
 }
+/* user-testing */
 .graph {
   display: flex;
   justify-content: center;
@@ -149,6 +163,7 @@ body {
   width: 300px;
   display: block;
 }
+/* code */
 .app-images {
   display: flex;
   flex-wrap: wrap;
@@ -159,11 +174,13 @@ body {
   height: 460px;
   margin: 1rem;
 }
-.mention {
-  color: #39a0b5;
-  text-decoration: none;
+/* final-text */
+.final-text {
+  font-size: 1.2rem;
+  width: 90%;
+  text-align: center;
+  margin: 1rem auto;
 }
-
 /* SKILLS */
 .skills {
   margin-top: 0.5rem;
@@ -204,6 +221,10 @@ body {
   flex-wrap: wrap;
   font-size: 1rem;
   font-weight: 600;
+}
+.mention {
+  color: #39a0b5;
+  text-decoration: none;
 }
 .email {
   color: #2b2e2e;
